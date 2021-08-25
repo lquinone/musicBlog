@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link ref="text/css" rel="stylesheet" href="style.css" />
+    <title>Music Blog</title>
+    <!--
+        Holds metadata / informaiton we dont't see.
+        - links, viewport info, document title, etc.
+    -->
+    <!-- 3 ways to use CSS with our doc: 
+    1. embed to CSS whitin a <style> tag.
+    2.Inline stying within another element.
+    3. Link a stylesheet to our HTMl document.-->
+    <!-- <style>
+    body {
+        background-color: blueviolet;
+    }
+</style>-->
+
+</head>
+
+<body>
+    <!-- <body style="background-color: yellow;"-->
+
+    <header>
+        <h1>Music Blog</h1>
+
+        <nav>
+            <ul>
+                <!-- (li>span{Home})+(li>a)*3 -->
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Welcome</h2>
+        <!-- Main specifies the main content.
+There can only be one. 
+Cannot be a descendant (child) of: 
+    - header, nav, article, aside, footer-->
+        <main>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis consequatur laboriosam minus
+                    molestias perferendis consequuntur cum repellendus laborum autem impedit animi itaque, cupiditate
+                    dolore? Tempore at nam tenetur ullam soluta?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ut numquam ipsa dolorum totam illo
+                    aperiam. Quo molestiae porro, cupiditate odit, distinctio ipsa magni, maiores harum architecto
+                    obcaecati unde doloremque?
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eveniet libero tempora atque
+                    assumenda quo voluptatem tenetur. Autem modi vel, dolorem, quibusdam praesentium adipisci ducimus
+                    quia quisquam voluptates fuga odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                    reprehenderit fugiat, veritatis amet error deleniti perspiciatis aliquam magni sint blanditiis
+                    repellat illum vel. Tempore, minima beatae saepe aliquid nam Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Quis ad nemo cumque, vel rerum quasi totam voluptatem reiciendis optio
+                    consequuntur. Vero qui quidem aspernatur fuga ad laboriosam, voluptatibus blanditiis quo!
+                </p>
+            </article>
+
+            <aside>
+                <h2>Favorite Albums</h2>
+                <!-- (a>img)*4 -->
+                <a target="_blank" href="./assets/Shakira2014.png"><img src="./assets/Shakira2014.png"
+                        alt="Shakira 2014 album cover"></a>
+                <a target="_blank" href="./assets/PinkFloyd.jpg"><img src="./assets/PinkFloyd.jpg" alt="Pink Floyd"></a>
+                <a target="_blank" href="./assets/Mana.jpeg"><img src="./assets/Mana.jpeg" alt="Mana Album"></a>
+                <a target="_blank" href="./assets/Enanitos verdez.jpeg"><img src="./assets/Enanitos verdez.jpeg"
+                        alt="Enanitos Verdez Album"></a>
+            </aside>
+        </main>
+    </section>
+
+
+    <!-- Footers can contain: authorship info, copyright, contact info, a sitemap, related links documents, back to top link -->
+    <footer>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore molestias debitis aut, neque eveniet
+            blanditiis in odit enim facilis architecto itaque quia ducimus dolores illo laborum ab repellat quod. Lorem,
+            ipsum dolor sit amet consectetur adipisicing elit. Commodi totam quia quis dicta eum veritatis, by Lizzy
+            2021</est>
+        </p>
+    </footer>
+</body>
+
+</html>
